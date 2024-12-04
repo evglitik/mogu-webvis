@@ -1,0 +1,156 @@
+/* Загальні стилі */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Шапка */
+header {
+  background: #0066cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Секції */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.first-bloc {
+  align-content: center;
+}
+
+/* Зображення */
+.poster-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Контактна секція */
+#contact p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Іконки соцмереж */
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Футер */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+/* Для мобільних пристроїв */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  .poster-img {
+    margin: 10px auto;
+  }
+}
+
+/* ############## */
+/* Базова стилізація блоку */
+.first-bloc {
+  display: flex;
+  align-items: center; /* Вирівнювання по вертикалі */
+  gap: 20px; /* Відстань між текстом і зображенням */
+  margin: 20px 0; /* Відступи зверху і знизу */
+}
+
+/* Зображення */
+.first-bloc .poster-img {
+  width: 200px; /* Ширина картинки */
+  height: auto; /* Пропорційне масштабування */
+  border-radius: 8px; /* Заокруглені кути */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); Легка тінь */
+}
+
+/* Текст */
+
+.first-bloc .text {
+  max-width: 600px; /* Обмеження ширини тексту */
+}
+
+.first-bloc .text h2 {
+  color: #0066cc; /* Колір заголовка */
+  margin-bottom: 10px;
+}
+
+.first-bloc .text p {
+  margin-bottom: 10px;
+  font-size: 1em;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Для мобільних пристроїв */
+@media (max-width: 768px) {
+  .first-bloc {
+    /* flex-direction: column; Вирівнювання вертикально */
+    text-align: center; /* Центрування тексту */
+  }
+
+  .first-bloc .poster-img {
+    width: 100%; /* Повна ширина картинки */
+    max-width: 300px; /* Максимальна ширина */
+    margin: 0 auto; /* Центрування картинки */
+  }
+}
+
+.href-social {
+  display: flex;
+  align-items: center; /* Вирівнювання по вертикалі */
+  justify-content:center;
+}
