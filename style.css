@@ -151,6 +151,10 @@ footer {
   color: #333;
 }
 
+.adressa {
+  color: #f9f9f9;
+}
+
 /* Для мобільних пристроїв */
 @media (max-width: 768px) {
   .first-bloc {
