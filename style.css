@@ -100,6 +100,22 @@ footer {
   }
 }
 
+.reklama {
+  background-color: #ffd7d7;
+}
+
+.contacts {
+  background-color: #0066cc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts p {
+  color: #f9f9f9;
+}
+
+.contacts h2 {
+  color: #f9f9f9;
+}
 /* ############## */
 /* Базова стилізація блоку */
 .first-bloc {
